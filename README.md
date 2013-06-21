@@ -13,7 +13,7 @@ Support Platform
 - Visual Studio 2003 (not tested)
 
 
-ScreenShut
+ScreenShot
 ==========
 ![](http://vutpp.googlecode.com/files/vutpp.0.4.png)
 
