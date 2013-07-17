@@ -13,8 +13,9 @@ namespace VUTPP
 
 		public static Assembly LoadMainAssembly(string runtimeVersion) 
 		{
-			string addinPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-			StringBuilder mainAssemblyFile = new StringBuilder(Path.Combine(addinPath, AddinImplementationAssemblyBasename));
+			var addinPath        = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+			var mainAssemblyFile = new StringBuilder(Path.Combine(addinPath, AddinImplementationAssemblyBasename));
+			
 			switch( runtimeVersion )
 			{
 				case "7.10":
@@ -33,9 +34,15 @@ namespace VUTPP
 					mainAssemblyFile.Append("VS2010");
 					break;
 
+				case "11.0":
+					mainAssemblyFile.Append("VS2012");
+					break;
+
 				default:
 					throw new ArgumentOutOfRangeException("runtimeVersion", string.Format(Constants.FrameworkNotSupported, runtimeVersion));
-			}mainAssemblyFile.Append(".dll");
+			}
+			
+			mainAssemblyFile.Append(".dll");
 			return Assembly.LoadFrom(mainAssemblyFile.ToString());
 		}
 	}
