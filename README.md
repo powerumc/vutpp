@@ -2,7 +2,7 @@ vutpp
 =====
 C++ UnitTest Gui Addin
 
-This is vutpp for the VS2010 project, support for evolution from http://code.google.com/p/vutpp/
+This is vutpp for the VS2012 project, support for evolution from http://code.google.com/p/vutpp/
 
 
 Support Platform
