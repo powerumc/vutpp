@@ -7,6 +7,7 @@ This is vutpp for the VS2010 project, support for evolution from http://code.goo
 
 Support Platform
 ================
+- Visual Studio 2012
 - Visual Studio 2010
 - Visual Studio 2008
 - Visual Studio 2005
