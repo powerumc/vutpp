@@ -1,3 +1,6 @@
+Junil Um  
+http://blog.powerumc.kr
+
 vutpp
 =====
 C++ UnitTest Gui Addin
