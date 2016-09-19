@@ -23,7 +23,6 @@ ScreenShot
 
 Contact
 =======
-- Service : http://www.powerumc.kr 
 - Blog : http://blog.powerumc.kr
 
 
